@@ -1,0 +1,487 @@
+/*
+
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+---------------------------------------------
+Table of contents
+------------------------------------------------
+1. Typography
+2. General
+3. Nav
+4. Hero Carousel
+5. Accordion
+6. Shop
+7. Product
+8. Carousel Hero
+9. Carousel Brand
+10. Services
+11. Contact map
+12. Footer
+13. Small devices (landscape phones, 576px and up)
+14. Medium devices (tablets, 768px and up)
+15. Large devices (desktops, 992px and up)
+16. Extra large devices (large desktops, 1200px and up)
+--------------------------------------------- */
+
+/* Typography */
+body,
+ul,
+li,
+a,
+label,
+input,
+div {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  color: #7e1aae;
+}
+
+p {
+  color: #000000;
+}
+
+.h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+}
+.h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+}
+.h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px !important;
+}
+/*  ------------- General ------------ */
+.logo {
+  font-weight: 500 !important;
+}
+.text-warning {
+  color: #ffffff !important;
+}
+.text-muted {
+  color: #bcbcbc !important;
+}
+.text-success {
+  color: #7e1aae !important;
+}
+.text-light {
+  color: #ffffff !important;
+} /*---- Color de información e iconos de la barra superior ----*/
+.bg-light {
+  background-color: #e9eef5 !important;
+}
+.bg-dark {
+  background-color: #7e1aae !important;
+} /*---- Color de la barra superior y del cuadro antes del pie de pagina ----*/
+.bg-light {
+  background-color: #e9eef5 !important;
+}
+.bg-black {
+  background-color: #1d242d !important;
+}
+.bg-success {
+  background-color: #f5e9fb !important;
+}
+.btn-success {
+  background-color: #17cfcb;
+}
+.pagination .page-link:hover {
+  color: #000;
+}
+.pagination .page-link:hover,
+.pagination .page-link.active {
+  background-color: #7e1aae;
+  color: #fff;
+}
+
+/*---- Color de telefono y email en la parte superior ----*/
+.navbar-sm-brand {
+  color: #ffffff !important;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-sm:hover {
+  /* ---- Iconos de redes sociales en la parte superior derecha ---- */
+  transform: scale(1.6) !important;
+  transition: 0.3s;
+}
+
+/* Nav */
+#templatemo_nav_top {
+  min-height: 40px;
+  background-color: #7e1aae;
+}
+#templatemo_nav_top * {
+  font-size: 1em !important;
+}
+
+/*----- Nombre In colors ------*/
+
+.in {
+  color: #17cfcb;
+}
+
+/*--------- Colores del menu --------*/
+
+#templatemo_main_nav a {
+  color: #7e1aae;
+  font-weight: 400 !important;
+}
+
+/*--------- Colores del menu cuando el cursor esta encima--------*/
+#templatemo_main_nav a:hover {
+  color: #17cfcb;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transform: scale(1.04);
+}
+#templatemo_main_nav .navbar .nav-icon {
+  margin-right: 20px;
+}
+
+/*--------- Logo de incolors--------*/
+nav a img {
+  height: 10vh;
+  margin-left: 20px;
+}
+
+/* ---------- Main ---------*/
+
+.frase {
+  background-color: #17cfcb;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Hero Carousel */
+#template-mo-zay-hero-carousel {
+  background: #fcf7fe !important;
+  color: #7e1aae !important;
+}
+/* Accordion */
+.templatemo-accordion a {
+  color: #7e1aae;
+}
+.templatemo-accordion a:hover {
+  color: #17cfcb;
+}
+
+.equipo {
+  width: 100%;        /* hace que la imagen nunca sobrepase el ancho de su contenedor */
+  height: auto;       /* mantiene la proporción */
+  display: block;     /* elimina espacios fantasmas si hay */
+  border-radius: 10px; /* opcional, solo para suavizar bordes */
+  object-fit: cover;   /* asegura que no se deforme si cambias el tamaño */
+}
+/* --------- Tienda ----------- */
+
+/* --- Categorias ----- */
+
+.cat-izq {
+  border: 1px solid #7e1aae;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.shop-top-menu a:hover {
+  color: #7e1aae !important;
+}
+/* --- Productos ----*/
+.product-wap {
+  box-shadow: 0px 5px 10px 0px #000000;
+}
+
+.card.product-wap .card .product-overlay {
+  background: rgba(245, 1, 250, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+.card.product-wap:hover .card .product-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.pb-3 a:hover {
+  text-decoration: underline !important;
+  text-underline-offset: 5px !important;
+  transform: scale(1.03);
+  color: #17cfcb;
+}
+/* Todas las tarjetas tienen la misma altura */
+#etiqueta_productos .col-md-4 {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Cada card se estira de forma uniforme */
+#etiqueta_productos .card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 10px !important;
+}
+
+/* Animación al pasar el mouse */
+#etiqueta_productos .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(126, 26, 174, 0.4);
+}
+
+/* ---- Carrito de compras ---------- */
+
+.carrito-compra {
+  font-size: 16px !important;
+  padding: 10px 5px 5px 10px !important;
+  max-height: 100%;
+  overflow-y: auto; /* Activa el scroll vertical si hay muchos productos */
+  scrollbar-width: thin; /* Scroll más delgado (Firefox) */
+  scrollbar-color: #7e1aae #f5f5f5; /* Color de la barra y del fondo (Firefox) */
+  box-shadow: 0 6px 16px rgba(27, 27, 27, 0.4);
+}
+
+#etiqueta_total {
+  background-color: #7e1aae;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+/* Scroll personalizado para Chrome, Edge y Safari */
+.carrito-compra::-webkit-scrollbar {
+  width: 8px; /* Ancho del scroll */
+}
+
+.carrito-compra::-webkit-scrollbar-track {
+  background: #f5f5f5; /* Fondo del scroll */
+  border-radius: 10px;
+}
+
+.carrito-compra::-webkit-scrollbar-thumb {
+  background-color: #7e1aae; /* Color principal (coincide con tu marca) */
+  border-radius: 10px;
+  border: 2px solid #f5f5f5; /* Borde suave */
+}
+
+.carrito-compra::-webkit-scrollbar-thumb:hover {
+  background-color: #5d1382; /* Color más oscuro al pasar el mouse */
+}
+/* Brand */
+.brand-img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.brand-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+/* -------- Carousel Hero  ---------- */
+#template-mo-zay-hero-carousel .carousel-indicators li {
+  /* ---- Indicadores inferiores del carrusel -----*/
+  margin-top: -10px;
+  background-color: #17cfcb;
+}
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+  color: #17cfcb !important;
+  font-size: 2.8em !important;
+}
+/* Carousel Brand */
+.tempaltemo-carousel .h1 {
+  font-size: 0.5em !important;
+  color: #000 !important;
+}
+/* Services */
+.services-icon-wap {
+  transition: 0.3s;
+}
+.services-icon-wap:hover,
+.services-icon-wap:hover i {
+  color: #fff;
+}
+.services-icon-wap:hover {
+  background: #17cfcb;
+}
+/* Contact map */
+.leaflet-control a,
+.leaflet-control {
+  font-size: 10px !important;
+}
+.form-control {
+  border: 1px solid #e8e8e8;
+}
+
+/** -------- Formulario de contacto -------*/
+
+.form-contact {
+  box-shadow: 0px 5px 20px 0px #000000;
+  padding: 20px;
+  margin-top: 30px !important;
+  border-radius: 10px;
+}
+
+/* ------------ Formulario de pago ----------*/
+
+.pago {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.pago-container {
+  box-shadow: 0px 5px 20px 0px #000000;
+  padding: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #7e1aae;
+  border-radius: 5px;
+}
+
+.mensaje {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pagar-btn {
+  margin-top: 10px;
+  background-color: #17cfcb;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  border: 2px solid #7e1aae;
+  cursor: pointer;
+}
+
+.pagar-btn:hover {
+  background-color: #14bab7;
+  transform: scale(1.05);
+}
+
+/* ------- Footer ------- */
+
+/* ===== Fondo del footer con imagen ===== */
+
+.fa-map-marker-alt {
+  color: #ffffff;
+}
+
+.fa-map-marker-alt:hover {
+  color: #17cfcb;
+  transform: scale(1.04);
+}
+
+#tempaltemo_footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#tempaltemo_footer ul li a:hover {
+  color: #17cfcb;
+  text-decoration: underline !important;
+  text-underline-offset: 5px;
+}
+#tempaltemo_footer ul.footer-link-list li {
+  padding-top: 10px;
+}
+#tempaltemo_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+}
+#tempaltemo_footer ul.footer-icons li:hover {
+  color: #17cfcb;
+  background-color: transparent;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+#tempaltemo_footer ul.footer-icons li:hover i {
+  color: #17cfcb;
+  transition: 0.5s;
+}
+
+#tempaltemo_footer .border-light {
+  border-color: #2d343f !important;
+}
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+*/
+/* Small devices (landscape phones, 576px and up)*/
+.product-wap .h3,
+.product-wap li,
+.product-wap i,
+.product-wap p {
+  font-size: 12px !important;
+}
+.product-wap .product-color-dot {
+  width: 6px;
+  height: 6px;
+}
+
+@media (min-width: 576px) {
+  .tempaltemo-carousel .h1 {
+    font-size: 1em !important;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #templatemo_main_nav .navbar-nav {
+    max-width: 450px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #templatemo_main_nav .navbar-nav {
+    max-width: 550px;
+  }
+  #template-mo-zay-hero-carousel .carousel-item {
+    min-height: 30rem !important;
+  }
+  .product-wap .h3,
+  .product-wap li,
+  .product-wap i,
+  .product-wap p {
+    font-size: 18px !important;
+  }
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
